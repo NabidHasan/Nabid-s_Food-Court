@@ -1,0 +1,76 @@
+body{
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    background-color: black;
+}
+
+h1{
+    
+    font-size: 50px;
+    font-weight: 700px;
+}
+
+#Welcome_id{
+    font-size: 70px;
+    color:darkblue;
+    text-align: center;
+    padding-top:180px;
+
+}
+#inicial_element{
+    text-align: center;
+    background-image: url(images/food/Project\ Cover4.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+
+
+.orange-color{
+    color: orange;
+}
+
+.paragraph_Color{
+    color: orangered;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.button_design{
+    
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    padding: 20px 40px;
+    border-radius: 40px;
+    
+}
+
+.introduction_Part{
+   
+    display: flex;
+    margin:auto;
+    margin-top: 50px;
+   
+    width: 90%;
+    
+    box-shadow: 5px 1px 20px white;
+}
+
+.items_div{
+      background-color: black;
+      width: 45%;
+      
+      color: whitesmoke;
+      padding: 20px;
+     
+
+}
+
+.items_div img{
+    
+    width: 80%;
+    
+}
+
