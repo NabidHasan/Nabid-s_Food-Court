@@ -18,8 +18,9 @@ h2{
 }
 
 #Welcome_id{
+    opacity: .5;
     font-size: 70px;
-    color:darkblue;
+    color:whitesmoke;
     text-align: center;
     padding-top:180px;
 
@@ -53,7 +54,7 @@ h2{
 }
 
 #famous_Foods p{
-    color:darkblue;
+    color: whitesmoke;
 }
 
 
