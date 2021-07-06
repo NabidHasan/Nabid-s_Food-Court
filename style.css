@@ -2,13 +2,19 @@ body{
     color: whitesmoke;
     font-family: 'Poppins', sans-serif;
     margin: 0px;
-    background-color: black;
+    background-color:black;
 }
 
 h1{
     
     font-size: 50px;
     font-weight: 700px;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
 }
 
 #Welcome_id{
@@ -18,6 +24,7 @@ h1{
     padding-top:180px;
 
 }
+
 #inicial_element{
     text-align: center;
     background-image: url(images/food/Project\ Cover4.png);
@@ -27,8 +34,90 @@ h1{
 }
 
 
+
+#recipies_section{
+   
+    width: 100%;
+    display: flex;
+    color: black;
+}
+
+#famous_Foods{
+    margin-top: 100px;
+    text-align: center;
+}
+
+#famous_Foods h1{
+    color: grey;
+    font-size: 40px;
+}
+
+#famous_Foods p{
+    color:darkblue;
+}
+
+
+#magazine_part #text{
+    text-decoration: none;
+
+    padding:100px;
+   
+    color: black;
+}
+
+
+#magazine_part{
+    
+    border-left: 10px solid;
+    border-image: linear-gradient(darkblue,cyan);
+    border-image-slice: 1;
+    margin-top: 50px;
+    margin-left: 67px;
+    
+    width: 90%;
+    background-color: white;
+    display: flex;
+
+
+}
+#magazine_part a{
+    text-decoration: none;
+}
+
+#magazine_part img{
+    padding: 5px;
+    
+}
+
+#follwers_section{
+    text-align: center;
+    border-radius: 10px;
+    margin: 70px;
+    background-color: whitesmoke;
+    display: flex;
+    width: 90%;
+    box-shadow: 5px 1px 20px white;
+}
+
+#footer{
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    box-shadow: 5px 1px 20px white;
+}
+
+#footer h1{
+    font-size: 30px;
+    color:grey;
+
+}
+
+
+
+
 .orange-color{
     color: orange;
+    font-size: bold;
 }
 
 .paragraph_Color{
@@ -43,18 +132,18 @@ h1{
     background-image: linear-gradient(orange,tomato);
     color: white;
     padding: 20px 40px;
+    
     border-radius: 40px;
     
 }
 
 .introduction_Part{
-   
+    border-radius: 10px;
+    padding: 10px;
     display: flex;
     margin:auto;
     margin-top: 50px;
-   
     width: 90%;
-    
     box-shadow: 5px 1px 20px white;
 }
 
@@ -73,4 +162,35 @@ h1{
     width: 80%;
     
 }
+
+
+.recipies{
+    border-radius: 40px;
+    box-shadow: 5px 1px 20px grey;
+    margin:20px;
+    padding: 20px;
+    background-color: white;
+    width: 30%;
+}
+
+.recipies p{
+    color: black;
+    font-size: 20px;
+}
+
+.recipies img{
+   
+    width: 100%;
+
+    
+}
+
+
+
+.followers{
+    color: black;
+    width: 30%;
+}
+
+
 
